@@ -345,6 +345,12 @@ onEvent("recipes", (event) => {
     event.replaceOutput("#forge:gems/sulfur", "emendatusenigmatica:sulfur_gem");
     event.replaceOutput("#forge:dusts/sulfur", "emendatusenigmatica:sulfur_dust");
 
+    event.replaceInput("#forge:gems/fluorite", "#forge:gems/fluorite");
+    event.replaceInput("#forge:dusts/fluorite", "#forge:dusts/fluorite");
+
+    event.replaceOutput("#forge:gems/fluorite", "emendatusenigmatica:fluorite_gem");
+    event.replaceOutput("#forge:dusts/fluorite", "emendatusenigmatica:fluorite_dust");
+
     event.replaceInput("#forge:storage_blocks/cinnabar", "#forge:storage_blocks/cinnabar");
     event.replaceInput("#forge:gems/cinnabar", "#forge:gems/cinnabar");
     event.replaceInput("#forge:dusts/cinnabar", "#forge:dusts/cinnabar");
