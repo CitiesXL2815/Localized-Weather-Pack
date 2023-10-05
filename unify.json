@@ -2,11 +2,16 @@
   "modPriorities": [
     "minecraft",
     "kubejs",
-    "crafttweaker",
-    "create",
     "thermal",
+    "mekanism",
+    "create",
+    "xycraft_world",
     "immersiveengineering",
-    "mekanism"
+    "ae2",
+    "biggerreactors",
+    "createaddition",
+    "botania",
+    "moremekanismprocessing"
   ],
   "stoneStrata": [
     "stone",
@@ -28,7 +33,10 @@
     "forge:rods/{material}",
     "forge:wires/{material}",
     "forge:storage_blocks/{material}",
-    "forge:storage_blocks/raw_{material}"
+    "forge:storage_blocks/raw_{material}",
+    "forge:silicon",
+    "forge:coal_coke",
+    "forge:creosote"
   ],
   "materials": [
     "aeternium",
@@ -46,6 +54,7 @@
     "cobalt",
     "constantan",
     "copper",
+    "creosote",
     "diamond",
     "electrum",
     "elementium",
@@ -71,6 +80,7 @@
     "ruby",
     "sapphire",
     "signalum",
+    "silicon",
     "silver",
     "steel",
     "sulfur",
@@ -80,6 +90,7 @@
     "zinc"
   ],
   "priorityOverrides": {},
+  "customTags": {},
   "tagOwnerships": {},
   "itemTagInheritanceMode": "ALLOW",
   "itemTagInheritance": {},
