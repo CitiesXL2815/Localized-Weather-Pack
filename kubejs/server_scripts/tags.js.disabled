@@ -1,0 +1,6 @@
+ServerEvents.tags('item', event => {
+
+  event.add('ae2:inscriber_presses', 'thermal:crafting/dies')
+  event.add('bigreactors:raw_yellorium', 'forge:raw_materials/uranium')
+
+})

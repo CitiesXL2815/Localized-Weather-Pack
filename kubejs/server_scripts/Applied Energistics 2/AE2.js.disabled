@@ -1,0 +1,11 @@
+ServerEvents.recipes(e=> {
+  event.shaped('4x ae2:quartz_glass', [
+    'ABA',
+    'BAB',
+    'ABA'
+  ], {
+     A: '#forge:dusts/quartz',
+     B: '#forge:glass'
+  })
+
+})

@@ -1,5 +1,8 @@
 ServerEvents.recipes(event=> {
   event.remove({ id: 'ava:silicon' })
+  event.remove({ id: 'epicpaladins:steel_ingot_from_blasting_iron_ingot'})
+  event.remove({ id: 'rpgsmw:s'})
+  event.remove({ id: 'rpgsmw:ss'})
 
   event.remove({ id: 'nukacraft:lead_block' })
 
@@ -9,7 +12,7 @@ ServerEvents.recipes(event=> {
     ' F ',
     '   '
   ], {
-     F: 'thermal:iron_plate'
+     F: '#forge:plates/iron'
   })
 
 })

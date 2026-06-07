@@ -5,10 +5,10 @@ ServerEvents.recipes(event=> {
     'ABA'
   ], {
      F: 'industrialforegoing:plastic',
-     I: 'thermal:diamond_gear',
+     I: '#forge:gears/diamond',
      R: 'minecraft:piston',
      G: 'thermal:machine_frame',
-     A: 'thermal:gold_gear',
+     A: '#forge:gears/gold',
      B: 'minecraft:redstone'
   })
 
@@ -21,7 +21,7 @@ ServerEvents.recipes(event=> {
      K: 'minecraft:diamond_pickaxe',
      J: '#forge:ingots/aluminum',
      H: 'thermal:machine_frame',
-     Y: 'thermal:diamond_gear',
+     Y: '#forge:gears/diamond',
      T: 'minecraft:redstone'
   })
 
@@ -56,7 +56,7 @@ ServerEvents.recipes(event=> {
     'MVM'
   ], {
      M: 'industrialforegoing:plastic',
-     D: 'thermal:diamond_gear',
+     D: '#forge:gears/diamond',
      B: 'minecraft:ender_eye',
      N: 'minecraft:ender_chest',
      V: 'thermal:machine_frame'
@@ -72,7 +72,7 @@ ServerEvents.recipes(event=> {
      W: 'minecraft:bucket',
      N: 'thermal:machine_frame',
      Q: 'minecraft:gold_ingot',
-     A: 'thermal:diamond_gear'
+     A: '#forge:gears/diamond'
   })
 
   event.shaped('1x industrialforegoing:bioreactor', [
@@ -81,7 +81,7 @@ ServerEvents.recipes(event=> {
     'UIU'
   ], {
      R: 'industrialforegoing:plastic',
-     J: 'thermal:diamond_gear',
+     J: '#forge:gears/diamond',
      Z: '#forge:slimeballs',
      X: 'thermal:machine_frame',
      U: 'minecraft:brick',
@@ -97,7 +97,7 @@ ServerEvents.recipes(event=> {
      J: 'minecraft:furnace',
      T: 'minecraft:piston',
      Y: 'thermal:machine_frame',
-     E: 'thermal:gold_gear'
+     E: '#forge:gears/gold'
   })
 
   event.shaped('1x industrialforegoing:plant_gatherer', [
@@ -109,7 +109,7 @@ ServerEvents.recipes(event=> {
      J: 'minecraft:iron_hoe',
      S: 'minecraft:iron_axe',
      D: 'thermal:machine_frame',
-     G: 'thermal:gold_gear',
+     G: '#forge:gears/gold',
      H: 'minecraft:redstone'
   })
 
@@ -122,7 +122,7 @@ ServerEvents.recipes(event=> {
      J: 'minecraft:bucket',
      X: 'minecraft:brick',
      Z: 'thermal:machine_frame',
-     C: 'thermal:iron_gear'
+     C: '#forge:gears/iron'
   })
 
   event.remove({ id: 'industrialforegoing:machine_frame_pity' })
@@ -131,7 +131,7 @@ ServerEvents.recipes(event=> {
     'THT',
     'GTG'
   ], {
-     G: 'thermal:enderium_ingot',
+     G: '#forge:ingots/enderium',
      T: 'thermal:enderium_glass',
      H: 'thermal:energy_cell_frame'
   })
@@ -142,7 +142,7 @@ ServerEvents.recipes(event=> {
     'ABA'
   ], {
      G: 'industrialforegoing:plastic',
-     A: 'thermal:gold_gear',
+     A: '#forge:gears/gold',
      I: 'minecraft:bucket',
      B: 'thermal:machine_frame',
      R: 'minecraft:shears'
@@ -156,7 +156,7 @@ ServerEvents.recipes(event=> {
      G: 'industrialforegoing:plastic',
      A: 'minecraft:iron_ingot',
      I: 'thermal:energy_cell_frame',
-     B: 'thermal:gold_gear',
+     B: '#forge:gears/gold',
      R: 'minecraft:nether_brick',
      O: 'industrialforegoing:machine_frame_pity'
   })
@@ -169,7 +169,7 @@ ServerEvents.recipes(event=> {
      G: 'industrialforegoing:plastic',
      A: 'minecraft:gold_ingot',
      I: 'thermal:energy_cell_frame',
-     B: 'thermal:diamond_gear',
+     B: '#forge:gears/diamond',
      R: 'minecraft:netherite_scrap',
      O: 'industrialforegoing:machine_frame_simple'
   })
@@ -182,7 +182,7 @@ ServerEvents.recipes(event=> {
      G: 'industrialforegoing:plastic',
      A: 'minecraft:diamond',
      I: 'thermal:energy_cell_frame',
-     B: 'thermal:diamond_gear',
+     B: '#forge:gears/diamond',
      R: 'minecraft:netherite_ingot',
      O: 'industrialforegoing:machine_frame_advanced'
   })

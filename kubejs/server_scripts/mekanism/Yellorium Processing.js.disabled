@@ -1,0 +1,19 @@
+ServerEvents.recipes(event => {
+          event.custom({
+            "type": "mekanism:injecting",
+            "chemicalInput": {
+                "amount": 1,
+                "gas": "mekanism:hydrogen_chloride"
+            },
+            "itemInput": {
+                "amount": 3,
+                "ingredient": {
+                    "tag": `forge:raw_materials/yellorium`
+                }
+            },
+            "output": {
+                "count": 8,
+                "tag": `mekanism:shards/uranium`
+            }
+          })
+})
