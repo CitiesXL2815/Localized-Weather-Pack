@@ -2,10 +2,11 @@
   "modPriorities": [
     "minecraft",
     "kubejs",
+    "xycraft_world",
+    "ftbmaterials",
     "thermal",
     "mekanism",
     "enderio",
-    "xycraft_world",
     "ad_astra",
     "moremekanismprocessing",
     "industrialforegoing",
